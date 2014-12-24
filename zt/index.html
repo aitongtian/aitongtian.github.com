@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>亲爱的朋友祝您圣诞快乐！！！</title>
+<meta name="description" content="亲爱的朋友祝您圣诞快乐！！！">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="white">
+<link href="img/match.css" rel="stylesheet" type="text/css">
+<link href="img/animate.css" rel="stylesheet" type="text/css">
+<script src="img/zepto.min.js"></script>
+<script src="img/match.js"></script>
+<script src="img/queryloader2.min.js"></script>
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+	"use strict";
+	var ql = new QueryLoader2(document.querySelector("body"), {
+		barColor: "#efefef",
+		backgroundColor: "#111",
+		percentage: true,
+		barHeight: 1,
+		minimumTime: 2000,
+		fadeOutTime: 0,
+		onComplete :function(){initPage();}
+	});
+});
+</script>
+</head>
+<body>
+	<div id="wx_pic" style="margin:0 auto;display:none;">
+		<img src="img/preview.png">
+	</div>
+	<!--播放音乐-->
+	<section class="music rotate">
+		<audio autoplay="autoplay" id="audio_play" loop="">  
+			<source src="img/BellRock.mp3" type="audio/mpeg">  
+			<source src="type='audio/mpeg'">
+		</audio>
+	</section>
+	<!--播放音乐-->
+	<div class="wrap" id="scene">
+		<div class="sec" style="-webkit-transform: matrix(1, 0, 0, 1, 0, 0);">
+			 <section class="sec01 slider sec01_show">
+
+			 </section>
+			 <section class="sec02 slider">
+				
+			 </section>
+			 <section class="sec03 slider">
+
+			 </section>
+			 <section class="sec04 slider">
+				
+			 </section>			 
+			 <section class="sec05 slider">
+				
+			 </section>
+			 <section class="sec06 slider">
+			  <div class="theme animate">
+                    <img src="img/5_text_3.png">
+					<img src="img/1_text_0.png">
+					<img src="img/1_text_1.png">
+
+				 </div>
+				 <a href="http://aitongtian.com" class="btn btn1">快来看看我吧</a>
+				 <a href="javascript:;" onclick="showqr();" class="btn btn2">关注爱通天官方微信</a>
+				 <p class="support">图片来自网络</p>
+			 </section>
+			 
+		</div>
+		<div class="arrow"></div>
+	</div>
+		<div class="qr"><img src="img/qr.jpg" class="qrimg"></div>
+</body></html>
